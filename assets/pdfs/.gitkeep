@@ -1,0 +1,9 @@
+Git does not track empty directories.
+Git is designed to be a file-tracking system (for files and their contents).
+- tracks files
+- tracks the directories it takes to get to files
+- ignores directories with no files
+
+that's why a hiddle little '.gitkeep' file will force git to track the directory
+even if there are no (really used) files in it, so we can track the development
+of a skeleton, for example.
